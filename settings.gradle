@@ -1,3 +1,4 @@
+include ':step03actionbarnavigation'
 include ':step02actionview'
 include ':step01actionbar'
 include ':app'
