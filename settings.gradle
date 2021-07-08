@@ -1,3 +1,4 @@
+include ':step13codeview'
 include ':step12xmlview'
 include ':step11drawerlayout'
 include ':step10tablayout'
