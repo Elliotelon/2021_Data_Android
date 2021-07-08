@@ -1,3 +1,4 @@
+include ':step08viewpager2'
 include ':step07toolbarnavigation'
 include ':step06toolbaractionview'
 include ':step05toolbar'
