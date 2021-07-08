@@ -1,3 +1,4 @@
+include ':step06toolbaractionview'
 include ':step05toolbar'
 include ':step04actionbarcustomizing'
 include ':step03actionbarnavigation'
