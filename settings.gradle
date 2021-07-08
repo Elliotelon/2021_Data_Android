@@ -1,3 +1,4 @@
+include ':step02actionview'
 include ':step01actionbar'
 include ':app'
 rootProject.name = "studydata"
