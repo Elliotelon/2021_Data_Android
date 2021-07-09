@@ -1,3 +1,5 @@
+include ':step20cpapp2'
+include ':step20cpapp1'
 include ':step19sqlitedatabase2'
 include ':step18sqlitedatabase1'
 include ':step17assets'
