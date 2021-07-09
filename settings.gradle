@@ -1,3 +1,4 @@
+include ':step16rawdata'
 include ':step15filedata'
 include ':step14applicationclass'
 include ':step13codeview'
