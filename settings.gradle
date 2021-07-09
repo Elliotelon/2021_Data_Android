@@ -1,3 +1,4 @@
+include ':step18sqlitedatabase1'
 include ':step17assets'
 include ':step16rawdata'
 include ':step15filedata'
