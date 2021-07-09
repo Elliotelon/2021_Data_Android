@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="입력요소">
+
+        <EditTextPreference
+            android:defaultValue="안녕하세요"
+            android:dependency="data2"
+            android:dialogIcon="@android:drawable/ic_menu_agenda"
+            android:icon="@android:drawable/ic_menu_add"
+            android:key="data1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="문자열 입력요소 입니다."
+            android:title="문자열 입력" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+            android:key="data2"
+            android:summary="체크박스요소 입니다."
+            android:summaryOff="체크박스 false"
+            android:summaryOn="체크박스 true"
+            android:title="체크박스요소" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_call"
+            android:key="data3"
+            android:summaryOff="스위치 OFF"
+            android:summaryOn="스위치 ON"
+            android:title="스위치 요소" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="리스트요소">
+
+        <ListPreference
+            android:defaultValue="value2"
+            android:dialogIcon="@android:drawable/ic_menu_revert"
+            android:entries="@array/title_list"
+            android:entryValues="@array/value_list"
+            android:icon="@android:drawable/ic_menu_more"
+            android:key="data4"
+            android:summary="단일 리스트요소 입니다."
+            android:title="단일 리스트요소" />
+        <MultiSelectListPreference
+            android:defaultValue="@array/default_list"
+            android:dialogIcon="@android:drawable/ic_menu_help"
+            android:entries="@array/title_list"
+            android:entryValues="@array/value_list"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:key="data5"
+            android:summary="다중선택 리스트 요소입니다."
+            android:title="다중선택 리스트 요소" />
+    </PreferenceCategory>
+</PreferenceScreen>
