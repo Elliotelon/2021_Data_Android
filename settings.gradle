@@ -1,3 +1,4 @@
+include ':step21preferences'
 include ':step20cpapp2'
 include ':step20cpapp1'
 include ':step19sqlitedatabase2'
