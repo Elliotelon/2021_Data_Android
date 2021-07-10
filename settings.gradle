@@ -1,3 +1,4 @@
+include ':step23resbasic'
 include ':step22preferencesscreen'
 include ':step21preferences'
 include ':step20cpapp2'

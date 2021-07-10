@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str1">안녕하세요</string>
+    <string name="str2">반갑습니다.</string>
+    <string name="str3" formatted="false">이름은 %s이고, 나이는 %d살 입니다.</string>
+</resources>
