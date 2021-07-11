@@ -1,3 +1,4 @@
+include ':step27localization'
 include ':step26ninepatchimage'
 include ':step25imageanimation'
 include ':step24imageres'
