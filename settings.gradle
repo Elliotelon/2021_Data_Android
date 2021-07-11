@@ -1,3 +1,4 @@
+include ':step31sensorlist'
 include ':step30deviceinfo'
 include ':step29rotation'
 include ':step28resolution'
