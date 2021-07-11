@@ -1,3 +1,4 @@
+include ':step30deviceinfo'
 include ':step29rotation'
 include ':step28resolution'
 include ':step27localization'
