@@ -1,3 +1,4 @@
+include ':step36getpicture'
 include ':step35gps'
 include ':step34orientation'
 include ':step33sensor2'
